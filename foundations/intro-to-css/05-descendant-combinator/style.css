@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+.container .text{
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+/* 
+
+OJO, si usamos el siguiente bloque:
+
+.container{
+    background-color: yellow;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+Nos aplicará entre los dos últimos <p> el estilo, ya que hace referencia al bloque entero y no al bloque + <p>
+
+Hay que referenciar el árbol completo para no cometer errores.
+
+*/
